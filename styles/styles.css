@@ -5,22 +5,54 @@
 
 .two-cols {
     gap: 10px;
+    padding: 10px;
     background-color: pink;
 }
 
 .two-cols .box {
     flex: 1;
     background-color: palegoldenrod;
-    border: 10px solid pink;
 }
 
 .three-cols {
     gap: 15px;
+    padding: 15px;
     background-color: pink;
 }
 
 .three-cols .box {
+    flex: 1;
+    background-color: palegoldenrod;
+}
+
+.three-unequal {
+    gap: 12px;
+    padding: 12px;
+    background-color: pink;
+}
+
+.three-unequal .box {
+    flex: 1;
+    background-color: palegoldenrod;
+    border: 2px solid black;
+}
+
+.three-unequal .box-big {
     flex: 2;
     background-color: palegoldenrod;
-    border: 15px solid pink;
+    border: 2px solid black;
+}
+
+.four-equal,
+.footer {
+    gap: 12px;
+    padding: 12px;
+    background-color: pink;
+}
+
+.four-equal .box,
+.footer .box {
+    flex: 1;
+    background-color: palegoldenrod;
+    border: 2px solid black;
 }
