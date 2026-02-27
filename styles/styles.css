@@ -5,10 +5,22 @@
 
 .two-cols {
     gap: 10px;
-    padding: 10px;
+    background-color: pink;
 }
 
 .two-cols .box {
     flex: 1;
-    background-color: lightblue;
+    background-color: palegoldenrod;
+    border: 10px solid pink;
+}
+
+.three-cols {
+    gap: 15px;
+    background-color: pink;
+}
+
+.three-cols .box {
+    flex: 2;
+    background-color: palegoldenrod;
+    border: 15px solid pink;
 }
